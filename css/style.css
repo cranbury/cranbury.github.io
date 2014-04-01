@@ -1,0 +1,245 @@
+html, body, div, h1, h2, section, ul,
+li, a, form, input, button, img, strong,
+header, footer, main, nav, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+  color: inherit;
+  background: transparent;
+}
+
+h1 {
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 20%;
+  height: auto;
+}
+
+.right-image {
+  float: right;
+}
+
+.left-image {
+  float: left;
+}
+
+label {
+  display: block;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.0;
+  font-family: "Lucida Console", Monaco, monospace;
+  color: #222;
+  background: #eee;
+}
+
+h1, h2 {
+  font-family: "Lucida Console";
+  font-weight: 700;
+}
+
+
+
+header {
+  position: relative;
+  background: black;
+  text-align: center;
+  z-index: 2;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo a {
+  display: block;
+  padding: 15px;
+  font-weight: 400;
+  font-size: 25px;
+  color: #fff;
+}
+
+nav a {
+  position: fixed;
+  display: block;
+  padding: 5px 10px;
+  border: 3px solid #222;
+  font-weight: 700;
+  z-index: 1;
+}
+
+nav a:hover {
+  color: #8A2E36;
+  border-color: #8A2E36;
+}
+
+
+
+
+#info {
+  text-align: center;
+}
+
+#info p {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff0;
+}
+
+#info strong {
+  font-weight: 700;
+}
+
+#info a {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#info a:hover {
+  text-decoration: none;
+}
+
+main {
+  margin: auto;
+  padding: 35px 0 0 0;
+  max-width: 1000px;
+}
+
+section {
+  display: block;
+  margin: 10em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 25px;
+  width: 20em;
+}
+
+section:first-child {
+  padding: 0 25px 0 60px;
+}
+
+section h2 {
+  color: red;
+  margin: 1em;
+  margin-left: 0;
+}
+
+section li > ul {
+  margin: 0 0 0 20px;
+}
+
+section li a {
+  position: relative;
+  left: -5px;
+  display: inline-block;
+  padding: 5px;
+}
+
+section li a:hover {
+  background: #E3ABAE;
+}
+
+.localhost {
+  text-align: center;
+}
+
+.localhost a {
+  position: relative;
+  top: -15px;
+  display: inline-block;
+  padding: 15px 30px;
+  color: white;
+  background: black;
+  border-radius: 15px;
+}
+
+.localhost a:hover {
+  background: red;
+}
+
+footer a {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  margin: 0 0 0 -20px;
+  padding: 40px 0 0 0;
+  width: 40px;
+  height: 0;
+  overflow: hidden;
+  background: url("../img/ga-white.png") no-repeat 0 0;
+  background-size: 40px;
+}
+
+form {
+  margin: 50px auto;
+  width: 300px;
+}
+
+form h1 {
+  margin: 0 0 30px 0;
+  font-size: 60px;
+}
+
+form #info {
+  display: none;
+  text-align: left;
+}
+
+form #info.show {
+  display: block;
+}
+
+.input {
+  margin: 30px 0;
+}
+
+.input label {
+  font-weight: 700;
+  padding: 0 0 5px 0;
+}
+
+.input input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 300px;
+  font-size: 20px;
+}
+
+.submit {
+  margin: 40px 0;
+}
+
+.submit button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #fff;
+  background: #0c0;
+  font-weight: 700;
+}
+
+.submit button:hover {
+  background: #0b0;
+}
