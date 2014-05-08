@@ -34,7 +34,7 @@ body{
   background: #fff;
 }
 
-.email span, .github span, .linkedin span{
+.email span, .github span, .linkedin span, .resume span{
 	margin-left: 45%;
 	color: white;
 }
